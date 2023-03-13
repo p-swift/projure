@@ -34,7 +34,7 @@ Robin
 Kim
 ```
 In the first case, the variable  `?who` is bound to Robin, while in the
-second, `who?` bound to Kim. In Prolog, logic variables can be bound in any position.
+second, `?who` bound to Kim. In Prolog, logic variables can be bound in any position.
 We need only a single rule to ask "who does Kim like" and "who likes Kim".
 In Clojure, however, we would define a function `likes`, so that (likes 'Kim) would return the list (Lee Kim).
 If we wanted to access the information the other way, we would need to define 
